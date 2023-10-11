@@ -23,8 +23,8 @@
 		
 		<style>
 			/* These two CSS styles are switched in the downloaded version. The pages are otherwise identical. */
-			.hidelocal {display:none;}
-			.showlocal {}
+			.hidelocal {}
+			.showlocal {display:none;}
 			
 			header {display:flex; align-items:center; justify-content:space-between; padding:0.5em;}
 			body {font-family:trebuchet ms,sans-serif; font-size:18px; margin:0;}
@@ -1182,7 +1182,18 @@
 		</script>
 	
 	</head>
-	<body onload="load_page();">
+	<!-- remove from download start -->
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-C77Y7D8LHL"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-C77Y7D8LHL');
+	</script>
+	
+	<!-- remove from download end --><body onload="load_page();">
 		<div id="statusdiv">
 			<span id="status">
 			</span>
